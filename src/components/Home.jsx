@@ -15,16 +15,16 @@ function Home() {
   return (
     <div
       name="home"
-      className=" h-screen w-full "
+      className=" h-screen w-full bg-gradient-to-b from-black to-gray-700"
     >
       <div className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4  text-white md:flex-row">
         <div className=" flex flex-col justify-center h-full mr-6 mx-auto">
           <h2 className=" text-4xl sm:text-6xl font-bold text-white">
-            Hi! I'm <span >Pratheek</span>
+            Hi! I'm <span className=" bg-gradient-to-r from-purple-500 via-blue-500 to-purple-500 bg-clip-text text-transparent" >Pratheek</span>
           </h2>
           <div className="whatwedo flex items-center gap-2 mt-4">
             <h3>-</h3>
-            <h2 className="subtitle text-2xl text-white">I'm a <span className=" text-blue-300 font-bold capitalize">  {text} </span><span className=""><Cursor cursorStyle='|' /></span></h2>
+            <h2 className="subtitle text-2xl text-white">I'm a <span className=" text-pink-300 font-bold capitalize">  {text} </span><span className=""><Cursor cursorStyle='|' /></span></h2>
           </div>
           <p className=" text-gray-400 py-4 max-w-md">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit,
