@@ -5,6 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      signature: ["Raleway"]
+    }
   },
-  plugins: [],
+  plugins: [require('tailwindcss'),
+  require('autoprefixer'),],
 }
