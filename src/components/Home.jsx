@@ -1,7 +1,8 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import heroimage from "../assets/heroiamge1.png";
-import { useTypewriter, Cursor } from 'react-simple-typewriter'
+import { useTypewriter, Cursor } from 'react-simple-typewriter';
+import { Link } from "react-scroll";
 
 
 function Home() {
@@ -33,12 +34,12 @@ function Home() {
           </p>
 
           <div className="">
-            <button className=" group text-white w-fit px-6 py-3 my-2 flex  items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500  cursor-pointer">
+            <Link to="portfolio" smooth duration={500} className=" group text-white w-fit px-6 py-3 my-2 flex  items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500  cursor-pointer">
               Portfolio
               <span className=" ml-1 group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight size={20} />
               </span>
-            </button>
+            </Link>
           </div>
         </div>
 
