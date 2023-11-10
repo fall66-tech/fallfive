@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-scroll";
 import '../App.css'
 
 function Navbar() {
@@ -9,7 +10,7 @@ function Navbar() {
   const links = [
     {
       id: 1,
-      link: "Home",
+      link: "home",
     },
     {
       id: 2,
@@ -17,7 +18,7 @@ function Navbar() {
     },
     {
       id: 3,
-      link: "portfoloio",
+      link: "portfolio",
     },
     {
       id: 4,
@@ -32,7 +33,7 @@ function Navbar() {
   return (
     <div className=" flex justify-between items-center w-full h-[80px] text-white bg-gradient-to-b from-black fixed px-4">
       <div>
-        <h1 className=" font-signature text-2xl font-bold " id="fall5">Fall 5 designs</h1>
+        <h1 className=" font-signature text-2xl font-bold bg-gradient-to-r from-purple-500 via-blue-500 to-purple-500 bg-clip-text text-transparent " id="fall5">Fall 5 designs</h1>
       </div>
 
       <ul className=" hidden md:flex">
@@ -41,7 +42,7 @@ function Navbar() {
             key={id}
             className=" px-4 cursor-pointer capitalize font-medium text-gray-300 hover:scale-110 hover:text-blue-400 duration-200"
           >
-            {link}
+            <Link to={link} smooth duration={500}>{link}</Link>
           </li>
         ))}
       </ul>
