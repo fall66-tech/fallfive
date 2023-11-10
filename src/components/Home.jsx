@@ -29,8 +29,7 @@ function Home() {
             <h2 className="subtitle text-2xl text-white">I'm a <span className=" text-pink-300 font-bold capitalize">  {text} </span><span className=""><Cursor cursorStyle='|' /></span></h2>
           </div>
           <p className=" text-gray-400 py-4 max-w-md">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit,
-            quasi!
+          I have passion for front-end development, specializing in React.js.
           </p>
 
           <div className="">
