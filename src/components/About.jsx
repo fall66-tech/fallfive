@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-scroll";
 
 function About() {
   return (
@@ -10,6 +11,12 @@ function About() {
 
         <p className=" text-xl mt-14"> Hello! 👋 I'm Pratheek Bayari, a passionate front-end developer specializing in React.js. With a keen eye for detail and a commitment to creating engaging user experiences, I bring 1 of hands-on experience in crafting robust and scalable web applications.</p>
         
+        <div className=" mt-5">
+            <Link to="contact" smooth duration={500} className="  text-white w-fit px-6 py-3 my-2 flex  items-center rounded-md bg-gradient-to-r from-pink-500 to-purple-500  cursor-pointer active:scale-90 duration-200">
+              Contact Me
+              
+            </Link>
+          </div>
 
       </div>
     </div>

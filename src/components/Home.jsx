@@ -3,6 +3,8 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 import heroimage from "../assets/heroiamge1.png";
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import { Link } from "react-scroll";
+import "./Home.css"
+
 
 
 function Home() {
@@ -17,7 +19,10 @@ function Home() {
     <div
       id="home"
       name="home"
-      className=" h-screen w-full bg-gradient-to-b from-black to-gray-700"
+      className=" h-screen w-full 
+      bg-gradient-to-b from-black to-gray-700
+     
+      "
     >
       <div className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4  text-white md:flex-row">
         <div className=" flex flex-col justify-center h-full mr-6 mx-auto">
